@@ -37,7 +37,7 @@ const Footer = () => {
               </p>
               <div className="flex items-center gap-3 text-sm text-white/60">
                 <Shield className="w-4 h-4 text-gold" />
-                <span>FIU Registered | KYC Compliant</span>
+                <span>Via FIU-Registered Exchanges | KYC Compliant</span>
               </div>
             </div>
 
