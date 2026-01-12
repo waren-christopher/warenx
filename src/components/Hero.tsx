@@ -45,7 +45,7 @@ const Hero = () => {
           >
             <Shield className="w-4 h-4 text-gold" />
             <span className="text-white/90 text-sm font-medium">
-              FIU Registered & Fully Compliant
+              Operating via FIU-Registered Exchanges
             </span>
           </motion.div>
 
@@ -108,8 +108,8 @@ const Hero = () => {
             {[
               {
                 icon: Shield,
-                title: "FIU Registered",
-                desc: "Fully compliant with regulations",
+                title: "FIU-Compliant",
+                desc: "Via registered exchanges",
               },
               {
                 icon: TrendingUp,

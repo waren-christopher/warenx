@@ -6,9 +6,9 @@ import { CheckCircle, FileCheck, Users, Landmark } from "lucide-react";
 const features = [
   {
     icon: FileCheck,
-    title: "FIU Compliance",
+    title: "Regulatory Compliance",
     description:
-      "Registered with the Financial Intelligence Unit and adhering to all applicable KYC regulations as per Indian law.",
+      "All operations conducted through FIU-registered exchanges, adhering to applicable KYC regulations as per Indian law.",
   },
   {
     icon: Users,
