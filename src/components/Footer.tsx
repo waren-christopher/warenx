@@ -30,10 +30,10 @@ const Footer = () => {
                 </div>
               </div>
               <p className="text-white/70 mb-6 max-w-md">
-                A compliant VDA trading company that operates through
-                FIU-registered exchanges. All transactions are transparent,
-                traceable, and routed only through approved exchanges and
-                registered bank accounts.
+                A compliant VDA trading company specializing in P2P digital asset 
+                selling through FIU-registered exchanges. All transactions are 
+                transparent, traceable, and routed only through approved exchanges 
+                and registered bank accounts.
               </p>
               <div className="flex items-center gap-3 text-sm text-white/60">
                 <Shield className="w-4 h-4 text-gold" />
@@ -74,7 +74,7 @@ const Footer = () => {
               <ul className="space-y-3">
                 {[
                   "VDA Trading",
-                  "INR Conversion",
+                  "P2P Selling",
                   "Compliant Operations",
                   "Asset Management",
                   "Exchange Integration",
