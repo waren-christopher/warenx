@@ -51,26 +51,27 @@ const Contact = () => {
     <section id="contact" className="section-padding bg-secondary/30" ref={ref}>
       <div className="container-custom">
         {/* Header */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.6 }}
-          className="text-center max-w-3xl mx-auto mb-16"
-        >
-          <span className="inline-block text-royal font-semibold text-sm uppercase tracking-wider mb-4">
-            Get In Touch
-          </span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Partner{" "}
-            <span className="bg-gradient-to-r from-royal to-sky bg-clip-text text-transparent">
-              With Us
-            </span>
-          </h2>
-          <p className="text-muted-foreground text-lg">
-            Interested in our digital asset trading and conversion services?
-            Reach out to discuss how we can work together.
-          </p>
-        </motion.div>
+<motion.div
+  initial={{ opacity: 0, y: 30 }}
+  animate={isInView ? { opacity: 1, y: 0 } : {}}
+  transition={{ duration: 0.6 }}
+  className="text-center max-w-3xl mx-auto mb-16"
+>
+  <span className="inline-block text-white font-semibold text-sm uppercase tracking-wider mb-4">
+    Get In Touch
+  </span>
+  <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
+    Partner{" "}
+    <span className="bg-gradient-to-r from-green-500 to-yellow-500 bg-clip-text text-transparent">
+      With Us
+    </span>
+  </h2>
+  <p className="text-muted-foreground text-lg">
+    Interested in our digital asset trading and conversion services? Reach out to discuss how we can work together.
+  </p>
+</motion.div>
+
+
 
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Contact Form */}
