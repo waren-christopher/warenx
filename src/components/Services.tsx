@@ -20,9 +20,9 @@ const services = [
   },
   {
     icon: Wallet,
-    title: "INR Conversion",
+    title: "P2P Trading",
     description:
-      "Seamless conversion between INR and digital assets with transparent pricing and direct bank settlements.",
+      "Peer-to-peer digital asset selling through FIU-registered exchanges with transparent pricing and direct bank settlements.",
     gradient: "from-gold to-gold-light",
   },
   {

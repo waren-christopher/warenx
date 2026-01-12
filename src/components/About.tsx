@@ -50,16 +50,15 @@ const About = () => {
             </h2>
             <p className="text-muted-foreground text-lg mb-6">
               Shiloh Digital Private Limited is engaged in the business of
-              Virtual Digital Asset (VDA) trading and conversion services. We
+              Virtual Digital Asset (VDA) trading and P2P conversion services. We
               operate through FIU-registered exchanges and follow all applicable
               compliance and KYC regulations as per Indian law.
             </p>
             <p className="text-muted-foreground mb-8">
-              Our core business activity involves purchasing digital assets
-              using INR from one FIU-registered exchange and selling them on
-              another FIU-registered exchange to convert back into INR. All
-              transactions are transparent, traceable, compliant, and routed
-              only through approved exchanges and registered bank accounts.
+              Our core business activity involves P2P (peer-to-peer) selling of 
+              digital assets through FIU-registered exchanges. All transactions 
+              are transparent, traceable, compliant, and routed only through 
+              approved exchanges and registered bank accounts.
             </p>
 
             <div className="space-y-4">
