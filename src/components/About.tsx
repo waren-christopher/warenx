@@ -43,7 +43,7 @@ const About = () => {
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Leading{" "}
-              <span className="bg-gradient-to-r from-royal to-sky bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-green-500 to-yellow-500 bg-clip-text text-transparent">
                 Digital Asset
               </span>{" "}
               Trading Solutions
