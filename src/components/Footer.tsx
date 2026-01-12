@@ -17,12 +17,16 @@ const Footer = () => {
             {/* Company Info */}
             <div className="lg:col-span-2">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-gradient-to-br from-gold to-gold-light rounded-xl flex items-center justify-center">
-                  <span className="text-navy font-bold text-2xl">S</span>
+                <div className="w-12 h-12 bg-gradient-to-br from-gold to-gold-light rounded-xl flex items-center justify-center overflow-hidden">
+                  <img 
+                    src="/warenx_logo.jpeg" 
+                    alt="WarenX Cashflow" 
+                    className="w-full h-full object-contain"
+                  />
                 </div>
                 <div>
                   <span className="text-white font-bold text-xl block leading-tight">
-                    Shiloh Digital
+                    Warenx Cashflow
                   </span>
                   <span className="text-gold text-sm font-medium tracking-wider">
                     PRIVATE LIMITED
@@ -92,7 +96,7 @@ const Footer = () => {
         <div className="border-t border-white/10 py-6 px-4 md:px-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-white/60 text-sm text-center md:text-left">
-              © {currentYear} Shiloh Digital Private Limited. All rights
+              © {currentYear} Warenx Cashflow Private Limited. All rights
               reserved.
             </p>
             <div className="flex items-center gap-6">

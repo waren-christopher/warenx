@@ -28,17 +28,17 @@ const Contact = () => {
     {
       icon: Building2,
       title: "Company",
-      details: ["Shiloh Digital Private Limited"],
+      details: ["Warenx Cashflow Private Limited"],
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["shilohdigitalz@gmail.com "],
+      details: ["wicktradingfx@gmail.com"],
     },
     {
       icon: Phone,
       title: "Phone",
-      details: ["+91 9884717488"],
+      details: ["+91 6374533912"],
     },
     {
       icon: MapPin,

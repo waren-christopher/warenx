@@ -70,7 +70,7 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="text-lg md:text-xl text-white/70 mb-10 max-w-2xl mx-auto"
           >
-            Shiloh Digital Private Limited provides secure, transparent, and
+            Warenx Cashflow Private Limited provides secure, transparent, and
             regulatory-compliant Virtual Digital Asset services with complete
             adherence to Indian financial regulations.
           </motion.p>

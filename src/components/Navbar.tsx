@@ -33,12 +33,16 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20 px-4 md:px-8">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-gold to-gold-light rounded-lg flex items-center justify-center">
-              <span className="text-navy font-bold text-xl">S</span>
+            <div className="w-10 h-10 bg-gradient-to-br from-gold to-gold-light rounded-lg flex items-center justify-center overflow-hidden">
+              <img 
+                src="/warenx_logo.jpeg" 
+                alt="WarenX Cashflow" 
+                className="w-full h-full object-contain"
+              />
             </div>
             <div className="flex flex-col">
               <span className="text-white font-bold text-lg leading-tight">
-                Shiloh Digital
+                Warenx Cashflow
               </span>
               <span className="text-gold text-xs font-medium tracking-wider">
                 PRIVATE LIMITED

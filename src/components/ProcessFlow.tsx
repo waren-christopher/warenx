@@ -150,7 +150,7 @@ const ProcessFlow = () => {
               Fully Compliant Operations
             </h3>
             <p className="text-white/80">
-              Shiloh Digital Private Limited is a compliant VDA trading company
+              Warenx Cashflow Private Limited is a compliant VDA trading company
               that operates through FIU-registered exchanges. All transactions
               are transparent, traceable, and routed only through approved
               exchanges and registered bank accounts.

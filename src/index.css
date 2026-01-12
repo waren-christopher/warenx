@@ -6,22 +6,23 @@
 
 @layer base {
   :root {
-    --background: 210 40% 98%;
+    /* 🌿 Light Green Theme */
+    --background: 120 40% 96%;
     --foreground: 222 47% 11%;
 
-    --card: 0 0% 100%;
+    --card: 120 30% 98%;
     --card-foreground: 222 47% 11%;
 
-    --popover: 0 0% 100%;
+    --popover: 120 30% 98%;
     --popover-foreground: 222 47% 11%;
 
     --primary: 221 83% 53%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96%;
+    --secondary: 120 30% 92%;
     --secondary-foreground: 222 47% 11%;
 
-    --muted: 210 40% 96%;
+    --muted: 120 30% 92%;
     --muted-foreground: 215 16% 47%;
 
     --accent: 45 93% 47%;
@@ -30,13 +31,13 @@
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
+    --border: 120 20% 88%;
+    --input: 120 20% 88%;
     --ring: 221 83% 53%;
 
     --radius: 0.75rem;
 
-    /* Custom colors for Shiloh Digital */
+    /* Brand colors */
     --navy: 222 47% 11%;
     --navy-light: 217 33% 17%;
     --royal-blue: 221 83% 53%;
@@ -47,27 +48,29 @@
 
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(221 83% 53%) 0%, hsl(199 89% 48%) 100%);
-    --gradient-hero: linear-gradient(180deg, hsl(222 47% 11%) 0%, hsl(221 83% 35%) 100%);
+    --gradient-hero: linear-gradient(180deg, hsl(120 40% 96%) 0%, hsl(120 30% 90%) 100%);
     --gradient-gold: linear-gradient(135deg, hsl(45 93% 47%) 0%, hsl(38 92% 50%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(210 40% 98%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(120 30% 98%) 0%, hsl(120 30% 95%) 100%);
 
     /* Shadows */
-    --shadow-card: 0 4px 6px -1px hsl(222 47% 11% / 0.1), 0 2px 4px -2px hsl(222 47% 11% / 0.1);
-    --shadow-elevated: 0 20px 25px -5px hsl(222 47% 11% / 0.1), 0 8px 10px -6px hsl(222 47% 11% / 0.1);
+    --shadow-card: 0 4px 6px -1px hsl(120 20% 20% / 0.08), 0 2px 4px -2px hsl(120 20% 20% / 0.08);
+    --shadow-elevated: 0 20px 25px -5px hsl(120 20% 20% / 0.12), 0 8px 10px -6px hsl(120 20% 20% / 0.12);
     --shadow-glow: 0 0 40px hsl(221 83% 53% / 0.3);
 
-    --sidebar-background: 0 0% 98%;
+    /* Sidebar */
+    --sidebar-background: 120 35% 94%;
     --sidebar-foreground: 240 5.3% 26.1%;
     --sidebar-primary: 240 5.9% 10%;
     --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent: 120 30% 90%;
     --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
+    --sidebar-border: 120 20% 85%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
   .dark {
-    --background: 222 47% 11%;
+    /* 🌑 Dark Mode (unchanged premium navy) */
+    --background: 222 47% 6%;
     --foreground: 210 40% 98%;
 
     --card: 217 33% 17%;
@@ -94,7 +97,7 @@
     --border: 217 33% 17%;
     --input: 217 33% 17%;
     --ring: 212 27% 84%;
-    
+
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -143,7 +146,7 @@
   }
 
   .glass-card {
-    @apply bg-white/80 backdrop-blur-xl rounded-2xl border border-white/20;
+    @apply bg-white/70 backdrop-blur-xl rounded-2xl border border-white/30;
     box-shadow: var(--shadow-card);
   }
 

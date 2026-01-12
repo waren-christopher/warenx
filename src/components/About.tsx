@@ -49,7 +49,7 @@ const About = () => {
               Trading Solutions
             </h2>
             <p className="text-muted-foreground text-lg mb-6">
-              Shiloh Digital Private Limited is engaged in the business of
+              Warenx Cashflow Private Limited is engaged in the business of
               Virtual Digital Asset (VDA) trading and P2P conversion services. We
               operate through FIU-registered exchanges and follow all applicable
               compliance and KYC regulations as per Indian law.
