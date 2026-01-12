@@ -33,17 +33,17 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      details: ["contact@shilohdigital.in", "info@shilohdigital.in"],
+      details: ["shilohdigitalz@gmail.com "],
     },
     {
       icon: Phone,
       title: "Phone",
-      details: ["+91 XXXX XXX XXX"],
+      details: ["+91 9884717488"],
     },
     {
       icon: MapPin,
       title: "Address",
-      details: ["India"],
+      details: ["3-54A East West Street, Kannirajapuram, Kadaladi, Ramanathapuram - 623135 Tamilnadu"],
     },
   ];
 
@@ -193,9 +193,7 @@ const Contact = () => {
                 Business Hours
               </h4>
               <div className="space-y-2 text-white/80">
-                <p>Monday - Friday: 9:00 AM - 6:00 PM IST</p>
-                <p>Saturday: 10:00 AM - 2:00 PM IST</p>
-                <p>Sunday: Closed</p>
+                <p>We operate 24×7, including weekends</p>
               </div>
             </div>
           </motion.div>
